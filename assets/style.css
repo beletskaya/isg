@@ -195,13 +195,13 @@ h2 {
 	background-color: #A51D35;
 }
 .main__why-wrapper img {
-    width: 28.2vh;
+    width: 23.2vh;
 }
 .main__why-wrapper .content {
-	font-size: 2vh;
-    line-height: 2.2vh;
+    font-size: 1.8vh;
+    line-height: 2.0vh;
 	font-family: 'Montserrat Bold';
-	max-width: 25.3vh;
+    max-width: 19.3vh;
     text-align: center;
 	padding-top: 2.7vh;
 	margin: 0 auto;
@@ -257,6 +257,7 @@ footer {
 	}
 	.main__why-wrapper .item {
 		padding-bottom: 4vh;
+		margin-left: 1vh;
 	}
 	.footer-wrap {
 		flex-direction: column;
@@ -268,5 +269,8 @@ footer {
 	}
 	.main__who-we-are__wrap .item:first-child {
 		padding-right: 0;
+	}
+	.main__why-wrapper {
+		justify-content: center;
 	}
 }
